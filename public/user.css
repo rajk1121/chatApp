@@ -1,0 +1,77 @@
+
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#exists{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 15px;
+                margin: 5px;
+    background-color: #7ed6df;
+     width:fit-content; 
+      border-radius: 20px;
+                height:fit-content; 
+}
+
+#recieve{
+
+    justify-content: flex-start;
+}
+#send{
+
+    justify-content: flex-end;
+}
+section{
+   
+    display: flex;
+    color: black;
+    
+               
+     }
+#chat-room{
+    overflow: auto;
+    height: 80vh;
+    width: 90vw;
+ 
+}
+
+#username-box,#message{
+
+    padding-left: 1rem;
+    width: 75vw;
+    border-radius: 20px;
+    border-style: none;
+    height: 2rem;
+    border-style:solid;
+    border-width: 0.5px;
+    margin-right:1rem;  
+}
+#change-username,#send-button{
+    
+    border-radius: 15px;
+    height: 2rem;
+    background-color: white;
+    border-style: none;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    transition: background-color 0.2s , color 0.2s;
+}
+input:focus,button:focus{
+    outline: none;
+    
+}
+#change-username:hover,#send-button:hover{
+    background-color: green;
+    color: white;
+}
+
+#bottom{
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,105 @@
+#text{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
+
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#exists{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 15px;
+                margin: 5px;
+    background-color: #7ed6df;
+     width:fit-content; 
+      border-radius: 20px;
+                height:fit-content; 
+}
+
+#recieve{
+display: flex;
+    justify-content: flex-start;
+}
+#send{
+display: flex;
+    justify-content: flex-end;
+}
+
+#chat-room{
+    overflow: auto;
+    height: 80vh;
+    width: 90vw;
+ 
+}
+#username-box{
+outline: none;
+margin-left: 25%;
+width:50%;
+height: 2rem;
+border-radius: 10px;
+
+}
+#message{
+
+    padding-left: 1rem;
+    width: 75vw;
+    border-radius: 20px;
+    border-style: none;
+    height: 2rem;
+    border-style:solid;
+    border-width: 0.5px;
+    margin-right:1rem;  
+}
+#change-username,#send-button{
+    
+    border-radius: 15px;
+    height: 2rem;
+    background-color: white;
+    border-style: none;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    transition: background-color 0.2s , color 0.2s;
+}
+input:focus,button:focus{
+    outline: none;
+    
+}
+#change-username:hover,#send-button:hover{
+    background-color: green;
+    color: white;
+}
+
+#bottom{
+  position: fixed;
+  bottom: 0;
+}
+
+#container{
+    background-color: #fff;
+  
+    padding: 10%;
+    border-radius: 10px;
+}
+
+button{
+display: block;
+margin-top: 5%;
+width: 15%;
+margin-left: 42%;
+height: 2rem;
+border-radius: 10px;
+background-color: #fff;
+transition: background-color 0.2s;
+}
+button:hover{
+    background-color: pink;
+}
