@@ -32,7 +32,7 @@ app.use(express.static('public'));
 // app.use(express.bodyParser())
 const server = app.listen(port);
 
-app.get('/login', (req, res) => {
+app.get(['/', '/login'], (req, res) => {
 
     res.render('login.pug')
 })
