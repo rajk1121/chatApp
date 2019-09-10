@@ -28,7 +28,7 @@ app.set('view engine', 'pug');
 
 app.set('views', 'template');
 app.use(express.static('public'));
-const port = 3000;
+// const port = 3000;
 // app.use(express.bodyParser())
 const server = app.listen(port);
 
