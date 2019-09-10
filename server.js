@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 const app = express();
 let rsocket;
 let rusr = "";
-const port = process.eventNames.PORT || 80;
+const port = process.env.PORT || 80;
 // var bodyParser = require('body-parser')
 
 
